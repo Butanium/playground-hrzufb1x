@@ -2,7 +2,8 @@
 This playground is an example of what a basic AI can be.
 
 # Structure
-One simple way to think about an AI for clash of bits to do those 3 things in descending order of priority :
+The easiest way to think about an AI for clash of bits is to controle each bot separatly. 
+Each bot will try to achieve those 3 actions in descending order :
 - Survive
 - Kill enemies in range
 - Find an enemy to kill
@@ -20,8 +21,10 @@ After collecting all the data, we can code our AI to adopt this behavior as foll
             # The closest enemy can be attacked, let's destroy it
             ally_bot.attack(closest_enemy)
         else:
-            # The closest enemy is too far away (we can't hit it), let's move closer
+            # The closest enemy is out of range (we can't hit it), let's move closer
             ally_bot.move(ally_bot.get_closest_enemy())
-    
+
     print(orders)
 ```
+# Limitations
+This AI is not meant to be unbeatable, it's up to you to improve it and maybe add collaborative behavior between your bots
