@@ -1,5 +1,5 @@
 # Welcome to Clash of Bits!
-This playground is an example of what a basic AI can be.
+This playground is an example of what a basic AI for [Clash of Bits](https://www.codingame.com/contribute/view/6587dcc2e3a07bd4696c16a3e63238b4a184) can be.
 
 # Structure
 The easiest way to think about an AI for clash of bits is to controle each bot separatly. 
