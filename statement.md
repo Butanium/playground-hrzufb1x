@@ -1,4 +1,4 @@
-# Welcome to clash of bits!
+# Welcome to Clash of Bits!
 This playground is an example of what a basic AI can be.
 
 # Structure
