@@ -17,7 +17,7 @@ After collecting all the data, we can code our AI to adopt this behavior as foll
         if ally_bot.shield == 0:
             # The shield is empty, run for your life !
             ally_bot.flee(closest_enemy)
-        elif closest_enemy.viewed_by(ally_bot).range_from_bot < 3:
+        elif closest_enemy.viewed_by(ally_bot).range_from_bot < OUT_OF_RANGE:
             # The closest enemy can be attacked, let's destroy it
             ally_bot.attack(closest_enemy)
         else:
