@@ -27,4 +27,4 @@ After collecting all the data, we can code our AI to adopt this behavior as foll
     print(orders)
 ```
 # Limitations
-This AI is not meant to be unbeatable, it's up to you to improve it and maybe add collaborative behavior between your bots
+This AI is not meant to be unbeatable, it's up to you to improve it and maybe add collaborative behavior between your bots !
