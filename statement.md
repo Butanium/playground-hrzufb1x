@@ -1,8 +1,8 @@
-# Welcome to clash of bits
+# Welcome to clash of bits!
 This playground is an example of what a basic AI can be.
 
 # Structure
-One simple way to think about an AI for clash of bits is with a behavior tree. For example
+One simple way to think about an AI for clash of bits to do those 3 things in descending order of priority :
 - Survive
 - Kill enemies in range
 - Find an enemy to kill
